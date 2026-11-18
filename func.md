@@ -41,7 +41,7 @@ for i in range(1,11):
         list.append((i))  
 print(list)             
 
-**LIST COMPRESHION**
+**LIST COMPRESHION** : **result = [A if condition1 else B if condition2 else C for i in nums]**
 list = []   
 numbers = [i for i in range(1,11) if i%2 != 0]  
 print(numbers) 
