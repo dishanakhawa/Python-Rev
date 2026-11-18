@@ -44,4 +44,17 @@ print(list)
 **LIST COMPRESHION**
 list = []   
 numbers = [i for i in range(1,11) if i%2 != 0]  
-print(numbers)    
+print(numbers) 
+
+
+list only of odd nos
+list = []
+for i in range(1,11):
+    if i%2 != 0:
+        list.append((i*i))
+print(list)        
+
+
+list = []
+numbers = [i*i for i in range(1,11) if i%2 != 0]
+print(numbers) 
